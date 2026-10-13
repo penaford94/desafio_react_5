@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { formatCurrency } from "../utils/formatCurrency";
 
 const Pizza = () => {
@@ -85,7 +86,7 @@ const Pizza = () => {
 
           <div className="col-md-6">
             <div className="card-body">
-              <h1 className="card-title fs-2 text-capitalize">
+              <h1 className="card-title fw-bold text-capitalize">
                 Pizza {pizza.name}
               </h1>
 

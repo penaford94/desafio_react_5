@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <Navbar bg="dark" variant="dark">
       <Container className="justify-content-start">
-        <Navbar.Brand> Pizzería Mamma Mía!</Navbar.Brand>
+        <Navbar.Brand className="h1 fw-bold mb-2"> Pizzería Mamma Mía!</Navbar.Brand>
         <Link to="/" className="text-white ms-3 text-decoration-none">Home</Link>
         <Link to="/login" className="text-white ms-3 text-decoration-none">Login</Link>
         <Link to="/register" className="text-white ms-3 text-decoration-none">Register</Link>

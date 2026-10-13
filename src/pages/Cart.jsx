@@ -1,5 +1,5 @@
 import { useState } from "react";
-//import { pizzaCart } from "../utils/pizza.js";
+import { pizzaCart } from "../utils/pizza.js";
 import { formatCurrency } from "../utils/formatCurrency.js";
 
 const Cart = () => {
@@ -24,7 +24,7 @@ const Cart = () => {
 
   return (
     <main className="container my-5">
-      <h1 className="fs-1 cart-title">Detalles del pedido:</h1>
+      <h1 className="h1 fw-bold mb-2">Detalles del pedido:</h1>
 
       {cart.length === 0 ? (
         <p>Tu carrito está vacío.</p>
